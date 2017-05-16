@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#05AFBE"
+        >
+
+        <LinearLayout
+            android:id="@+id/ivBack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="17dp"
+                android:src="@mipmap/btn_back" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:text="测试详情"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:text="这里显示的是文本信息"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:ellipsize="end"
+        android:background="@color/white"/>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:background="@color/white"
+        android:text="相似度为"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:gravity="bottom">
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="播放录音"
+            android:textColor="@color/white"
+            android:background="@color/base_color"/>
+    </LinearLayout>
+</LinearLayout>

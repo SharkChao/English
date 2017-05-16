@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#05AFBE"
+        >
+
+        <LinearLayout
+            android:id="@+id/ivBack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="17dp"
+                android:src="@mipmap/btn_back" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:text="口语测试"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:text="这里显示的是文本信息"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:ellipsize="end"
+        android:maxLines="10"
+        android:background="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:layout_margin="10dp">
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="标准读音"
+            android:background="@color/base_color"
+            android:textColor="@color/white"/>
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="我的读音"
+            android:layout_marginLeft="10dp"
+            android:background="@color/base_color"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+</LinearLayout>

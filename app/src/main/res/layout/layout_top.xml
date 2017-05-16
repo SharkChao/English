@@ -1,0 +1,28 @@
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#05AFBE"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/ivBack"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="17dp"
+            android:src="@mipmap/btn_back" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+</LinearLayout>

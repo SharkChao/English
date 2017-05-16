@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/white">
+    <TextView
+        android:id="@+id/ivSound"
+        android:layout_width="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="CET4"
+        android:layout_marginLeft="10dp"
+        android:background="@color/base_color"
+        />
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ivSound"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="2006年12月大学英语四级真题听力"/>
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:textColor="@color/base_color"
+        android:layout_centerVertical="true"
+        android:singleLine="true"
+        android:layout_alignParentRight="true"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="详解"/>
+</RelativeLayout>

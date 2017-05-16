@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#028CE5</color>
+    <color name="colorPrimaryDark">#028CE5</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="app_theme_colors">#BE0F0F</color>
+    <color name="gray_2">#a1a3a6</color>
+    <color name="base_bg">#ffeeeeee</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="primary_text_color">#212121</color>
+    <color name="tab_underline_color">#ff9602</color>
+    <color name="item_tuwen_title_color">#fe4817</color>
+    <color name="item_tuwen_author_color">#c8bfb5</color>
+    <color name="item_tuwen_data_color">#a7a9bf</color>
+    <color name="item_tuwen_des_color">#1f0000</color>
+    <color name="dark_line">#555555</color>
+    <color name="dark_line_50">#9a9a9a</color>
+    <color name="red">#cc0000</color>
+    <color name="btn_complete_normal_colors">#CF2A27</color>
+    <color name="btn_complete_press_colors">#BE0F0F</color>
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+    <color name="base_color">#05AFBE</color>
+    <color name="light_gray">#fff5f5f5</color>
+
+</resources>
